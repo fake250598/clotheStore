@@ -1,14 +1,13 @@
   @import '../../../variables.scss';
   $textColor: #444444;
   $gray: #bbb;
-  $bg: whitesmoke;
-  $pgb: #42c8cb;
-  $pgt: #6bffc8;
+  $pgb: $third;
+  $pgt: $first;
   $dot: #349a98;
   $bgt: $first;
-  $bgb: $second;
-  $bdot1: #59e8c8;
-  $bdot2: #ffee71;
+  $bgb: $third;
+  $bdot1: black;
+  $bdot2: #349a98;
   $bdot3: #6654af;
   $bdot4: #343434;
   $bdot5: #dfdfdf;
@@ -21,14 +20,6 @@
       @media(#{$min-max}: #{$em}em){
         @content;
       }
-  }
-  
-  body{
-    background-color: $bg;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    color: $textColor;
   }
   
   .container{
@@ -55,7 +46,7 @@
     color: $gray;
   }
   .imgprod{
-      width: 400px;
+      width: 380px;
       height: 400px;
       position: relative;
   }
@@ -96,7 +87,6 @@
     }
     &-details{
       padding: 40px;
-      background-color: white;
       border-radius: 0 0 20px 20px;
       .title{
         text-transform: uppercase;
