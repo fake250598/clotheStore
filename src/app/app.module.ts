@@ -11,7 +11,6 @@ import { CategoryviewComponent } from './components/category/categoryview/catego
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { ItemDetailComponent } from './components/item-detail/item-detail.component';
-import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
