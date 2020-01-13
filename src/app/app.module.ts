@@ -13,6 +13,7 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
 import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MaterialModule } from './material/material.module';
     ContactUsComponent,
     ShoppingCartComponent,
     ItemDetailComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

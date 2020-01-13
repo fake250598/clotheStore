@@ -1,7 +1,7 @@
 @import '../../../variables.scss';
 .my-nav{
     position: fixed;
-    z-index: 10;
+    z-index: 99;
     width: 100%;
     background: $first;
 }
