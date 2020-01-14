@@ -22,6 +22,7 @@ export class RegisterComponent implements OnInit {
       container.classList.remove("right-panel-active");
     });
     
+
     
   }
 
