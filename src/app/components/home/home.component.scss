@@ -77,10 +77,8 @@ i:hover {
   bottom: unset;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  width: 4%;
   font-size: 3.5rem;
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 5px;
   -webkit-transition: 5s all;
   transition: 5s all;
 }
@@ -217,4 +215,35 @@ i:hover {
 @keyframes grow {
 	0% { -webkit-transform: scale(1, 1); transform: scale(1, 1); opacity: 1; }
 	100% { -webkit-transform: scale(1.8, 1.8); transform: scale(1.8, 1.8); opacity: 0; }
+}
+
+@media (max-width: 550px) {
+  .circle-1{
+    width: 200px;
+    height: 200px;
+  }
+  .circle-2 {
+    width: 200px;
+    height: 200px;
+  }
+  .circle-3 {
+    width: 200px;
+    height: 200px;
+  }
+  .circle-1::before {
+    width: 200px;
+    height: 200px;
+  }
+  .circle-1::after {
+    width: 200px;
+    height: 200px;
+  }
+  .circle-2::before {
+    width: 200px;
+    height: 200px;
+  }
+  .circle-3::before {
+    width: 200px;
+    height: 200px;
+  }
 }
